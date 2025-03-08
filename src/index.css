@@ -1,0 +1,48 @@
+/* General Body Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.8; 
+  color: #dcdcdc;  
+  background-color: #121212;  
+}
+
+/* Code Block Styling */
+code {
+  font-family: 'Courier New', 'Lucida Console', 'Consolas', monospace;
+  background-color: #2e2e2e;  
+  padding: 6px 8px;  
+  border-radius: 5px;  
+  font-size: 1rem;
+  color: #e74c3c;  
+}
+
+
+p {
+  margin-bottom: 1.5rem;  
+  color: #b0b0b0;  
+}
+
+
+a {
+  color: #3498db;  
+  text-decoration: none;
+  transition: color 0.3s ease; 
+}
+
+a:hover {
+  text-decoration: underline;  
+  color: #1abc9c;  
+}
+/* Footer Link Styling */
+.footer-link {
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-link:hover {
+  color: #f39c12; 
+  text-decoration: underline;
+}
+
