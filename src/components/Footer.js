@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className="row">
                     
                     <div className="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                        <h5 className="text-uppercase font-weight-bold mb-3">Quick Links</h5>
+                       
                         <ul className="list-unstyled">
                             <li><a href="/" className="text-white text-decoration-none footer-link">Home</a></li>
                             <li><a href="/all-products" className="text-white text-decoration-none footer-link">All Products</a></li>

@@ -51,7 +51,7 @@ const CheckoutPage = ({ cart }) => {
                         </div>
                     </div>
                 ) : (
-                    <p className="text-center text-muted">Your cart is empty. Add some products before checking out.</p>
+                    <p className="text-center text-muted">Your cart is empty</p>
                 )}
             </div>
         </div>

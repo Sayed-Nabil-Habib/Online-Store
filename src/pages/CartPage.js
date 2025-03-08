@@ -29,7 +29,7 @@ const CartPage = ({ cart }) => {
                     ))}
                 </div>
             ) : (
-                <p className="text-center">Your cart is empty.</p>
+                <p className="text-center">the cart is empty.</p>
             )}
 
             {cart.length > 0 && (

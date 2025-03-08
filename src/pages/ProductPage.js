@@ -49,7 +49,7 @@ const ProductPage = ({ addToCart }) => {
             </div>
 
             <div className="mt-4">
-                <h3 className="mb-3">Customer Reviews</h3>
+                <h3 className="mb-3">Reviews</h3>
                 {product.reviews?.length > 0 ? (
                     <div className="list-group">
                         {product.reviews.map((review) => (
@@ -61,7 +61,7 @@ const ProductPage = ({ addToCart }) => {
                         ))}
                     </div>
                 ) : (
-                    <p className="text-muted">No reviews yet.</p>
+                    <p className="text-muted">No reviews</p>
                 )}
             </div>
         </div>

@@ -14,7 +14,7 @@ const CheckoutSuccessPage = ({ clearCart }) => {
                 className="btn btn-primary mt-4"
                 onClick={() => window.location.href = '/'}
             >
-                Back to Home Page 
+               To Home Page
             </button>
         </div>
     );

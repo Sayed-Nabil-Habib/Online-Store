@@ -15,7 +15,7 @@ const Product = ({ product, addToCart }) => {
                     <p className="card-text text-danger">${product.discountedPrice.toFixed(2)}</p>
                     <div className="d-flex justify-content-start gap-2">
                         <Link to={`/product/${product.id}`} className="btn btn-primary btn-sm">
-                            View Product
+                            show Product
                         </Link>
                         <button 
                             className="btn btn-success btn-sm" 

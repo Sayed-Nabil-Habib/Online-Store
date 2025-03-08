@@ -30,7 +30,7 @@ Installation
 
 # Clone the project:
 
-git clone https://github.com/SayedNabil/online-store
+git clone https://github.com/Sayed-Nabil-Habib/Online-Store
 
 # Navigate to the folder:
 
